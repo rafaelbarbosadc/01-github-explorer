@@ -1,5 +1,5 @@
-
+import './styles/global.scss'
+import { RepositoryList } from './components/RepositoryList'
 export function App() {
-  throw new Error('Eita')
-  return <h1>Hello World</h1>
+  return <RepositoryList />
 }
