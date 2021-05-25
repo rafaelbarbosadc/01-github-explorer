@@ -1,0 +1,11 @@
+li {
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+  & a {
+    color: rgb(39, 40, 129);
+    cursor: pointer;
+  }
+  & * {
+    padding: 5px;
+  }
+}
